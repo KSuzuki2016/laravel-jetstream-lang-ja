@@ -29,5 +29,8 @@
 ## File-based project format:
 *.ipr
 *.iws
+*.http
 
+vendor
 storage
+source

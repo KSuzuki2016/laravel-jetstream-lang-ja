@@ -1,0 +1,42 @@
+{
+    "name": "KSuzuki2016/laravel-jetstream-lang-ja",
+    "description": "Jetstream日本語化ファイル",
+    "type": "library",
+    "keywords": ["laravel", "jetstream"],
+    "homepage": "https://github.com/KSuzuki2016/laravel-jetstream-lang-ja",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atamiso",
+            "email": "atamini@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0",
+        "illuminate/support": "^8.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "mockery/mockery": "^1.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "KSuzuki2016\\LaravelJetstreamLangJa\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KSuzuki2016\\LaravelJetstreamLangJa\\LaravelJetstreamLangJaServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
