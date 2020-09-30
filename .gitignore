@@ -31,6 +31,9 @@
 *.iws
 *.http
 
+*.cache
+*.lock
+
 vendor
 storage
 source

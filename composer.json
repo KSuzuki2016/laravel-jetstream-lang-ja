@@ -19,6 +19,13 @@
         "phpunit/phpunit": "^9.0",
         "mockery/mockery": "^1.4.2"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KSuzuki2016\\LaravelJetstreamLangJa\\LaravelJetstreamLangJaServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "KSuzuki2016\\LaravelJetstreamLangJa\\": "src/"
@@ -29,15 +36,6 @@
             "Tests\\": "tests/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "KSuzuki2016\\LaravelJetstreamLangJa\\LaravelJetstreamLangJaServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "test": "vendor/bin/phpunit"
     }
