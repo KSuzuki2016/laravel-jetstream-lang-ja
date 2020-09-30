@@ -5,7 +5,7 @@ Laravel 8.x から公式パッケージとして追加されたJetstream日本�
 ## Installation
 
 ``` bash
-$ composer require git@github.com:KSuzuki2016/laravel-jetstream-lang-ja.git --dev
+$ composer require ksuzuki2016/laravel-jetstream-lang-ja --dev
 ```
 
 ## Usage
