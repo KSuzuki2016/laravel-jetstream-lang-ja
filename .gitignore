@@ -36,4 +36,6 @@
 
 vendor
 storage
-source
+source/*
+bin/*
+translate/*
